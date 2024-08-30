@@ -13,8 +13,22 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        typing: {
+          'from': { width: '0' },
+          'to': { width: '100%' },
+        },
+        blink: {
+          'from, to': { borderColor: 'transparent' },
+          '50%': { borderColor: 'black' },
+        },
+      },
+      animation: {
+        typing: 'typing 3.5s steps(40, end) forwards, blink 0.75s step-end infinite',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
