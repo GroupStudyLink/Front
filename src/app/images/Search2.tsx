@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function SearchIcon() {
+export default function Search2() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20px"
-      height="20px"
+      width="24px"
+      height="24px"
       fill="currentColor"
       viewBox="0 0 256 256"
     >
