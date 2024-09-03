@@ -4,7 +4,7 @@ import React from "react";
 export default function page() {
   return (
     <div className="h-screen px-40 flex flex-1 justify-center py-5 bg-white">
-      <div className="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+      <div className="layout-content-container flex flex-col w-full py-5 flex-1 justify-center items-center">
         <div className="flex justify-center items-center gap-2 text-[#111418] mb-5">
           <div className="size-8">
             <HeaderIcon />
@@ -13,7 +13,7 @@ export default function page() {
             StudyLink 회원가입
           </h2>
         </div>
-        <div className="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <div className="flex w-[480px] flex-wrap items-end gap-4 px-4 py-3">
           <label className="flex flex-col min-w-40 flex-1">
             <p className="text-[#111418] text-base font-medium leading-normal pb-2">
               이름
@@ -25,7 +25,7 @@ export default function page() {
             />
           </label>
         </div>
-        <div className="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <div className="flex w-[480px] flex-wrap items-end gap-4 px-4 py-3">
           <label className="flex flex-col min-w-40 flex-1">
             <p className="text-[#111418] text-base font-medium leading-normal pb-2">
               이메일
@@ -37,7 +37,7 @@ export default function page() {
             />
           </label>
         </div>
-        <div className="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <div className="flex w-[480px] flex-wrap items-end gap-4 px-4 py-3">
           <label className="flex flex-col min-w-40 flex-1">
             <p className="text-[#111418] text-base font-medium leading-normal pb-2">
               비밀번호
@@ -49,7 +49,7 @@ export default function page() {
             />
           </label>
         </div>
-        <div className="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+        <div className="flex w-[480px] flex-wrap items-end gap-4 px-4 py-3">
           <label className="flex flex-col min-w-40 flex-1">
             <p className="text-[#111418] text-base font-medium leading-normal pb-2">
               비밀번호 확인
@@ -61,7 +61,7 @@ export default function page() {
             />
           </label>
         </div>
-        <div className="px-4">
+        <div className="flex flex-col items-start w-[480px] px-4 py-3">
           <label className="flex gap-x-3 py-3 flex-row">
             <input
               type="checkbox"
@@ -71,9 +71,7 @@ export default function page() {
               동의
             </p>
           </label>
-        </div>
-        <div className="flex justify-stretch">
-          <div className="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-between">
+          <div className="flex flex-1 gap-3 flex-wrap py-3 justify-start">
             <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-[#1980e6] text-white text-base font-bold leading-normal tracking-[0.015em]">
               <span className="truncate">가입하기</span>
             </button>
