@@ -11,15 +11,15 @@ export default function page() {
           <div className="@container">
             <div className="@[480px]:p-4">
               <div className="relative flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10 bg-[url('https://cdn.usegalileo.ai/sdxl10/57ea3a22-0c37-483d-b629-0af7dc99457c.png')]">
-                <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
+                <div className="absolute inset-0 bg-black opacity-20 rounded-xl"></div>
                 <div className="relative z-10">
                 <div className="flex flex-col gap-2 text-left">
                   <h1 className="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
-                    Explore Study Groups
+                    스터디 그룹을 찾아보세요
                   </h1>
                   <h2 className="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                    Join a group or create your own. Study groups are a great
-                    way to stay motivated and learn together.
+                  그룹에 가입하거나 직접 만드세요. 스터디 그룹은 동기를 유지하고 함께 배우는 좋은
+                  방법입니다.
                   </h2>
                 </div>
                 <label className="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
@@ -33,7 +33,7 @@ export default function page() {
                       <Search2 />
                     </div>
                     <input
-                      placeholder="Search for a topic or group"
+                      placeholder="주제 또는 그룹 검색"
                       className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#111418] focus:outline-0 focus:ring-0 border border-[#dce0e5] bg-white focus:border-[#dce0e5] h-full placeholder:text-[#637588] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
                       value=""
                     />
@@ -49,7 +49,7 @@ export default function page() {
             </div>
           </div>
           <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-            Recommended for you
+            당신을 위한 추천 그룹
           </h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
             <div className="flex flex-col gap-3 pb-3">
@@ -120,7 +120,7 @@ export default function page() {
             </div>
           </div>
           <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
-            Your groups
+            참가하고 있는 그룹
           </h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
             <div className="flex flex-col gap-3 pb-3">
